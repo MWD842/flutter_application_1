@@ -34,7 +34,14 @@ class SimpleProject extends StatelessWidget {
           IconButton(onPressed: () {}, icon: Icon(Icons.search, size: 25)),
         ],
       ),
-      // body: aaaa
+      
+      
+      body: Center(
+        child: Text(
+          "Hello World",
+          style: TextStyle(fontSize: 30),
+        ),
+      )
     );
   }
 }
